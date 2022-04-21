@@ -1,0 +1,41 @@
+
+table {
+    padding-top: 5px;
+    /* width: 50%; */
+}
+
+table td {
+    /* border: 1px solid black; */
+    padding-left: 4px;
+    /* padding-right: 10px; */
+    background-color: rgba(255, 255, 255, 0.186);
+    text-shadow: 1px 1px blanchedalmond;
+}
+
+caption {
+    padding-top: 15px;
+    font-style: italic;
+    color: black;
+    text-shadow: 1px 1px blanchedalmond;
+    font-weight: bold;
+}
+
+.completeOrCurrent {
+    /* background-color: #e1c6176b; */
+    background-color: #ffe59d5f;
+}
+
+thead, th {
+    /* background-color: #fd87997c; */
+    background-color: #1f313859;
+    color: blanchedalmond;
+    text-shadow: 1px 1px black;
+}
+
+.secondHeader {
+    background-color: white;
+}
+
+tbody {
+    margin: auto;
+}

@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Meta Tags -->
+        <meta charset="utf-8">
+        <meta name="description" content="Personal portfolio website intended for CWI and beyond.">
+        <meta name="keywords" content="portfolio, CWI, Software Development">
+        <meta name="author" content="Auri/Aurielle Rosenberger">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="media/favicon.ico">
+        <link rel="icon" type="image/png" sizes="32x32" href="media/favicon-32x32.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="media/apple-touch-icon.png">
+	    <link rel="icon" sizes="192x192" href="media/android-chrome-192x192.png">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css">
+
+        <!-- JQuery Link -->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+        <title>Contact Information</title>
+    </head>
+
+    <body>
+        <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="cwi.html">Education at CWI</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        </header>
+
+        <main>
+             <form method="get" class="formFormat">
+                 <fieldset>
+                    <legend class="f3 pl1 pr2 fontChange">Contact Information</legend><br>
+                 <div>
+                     <label for="email_address">Email:&nbsp;</label>
+                     <input type="text" name="email_address" id="email_address">
+                     <!-- <span>*</span> -->
+                    </div>
+                    <div>
+                        <label for="phone">Mobile Phone:&nbsp;</label>
+                        <input type="text" name="phone" id="phone">
+                        <!-- <span>*</span> -->
+                    </div>
+
+                    <div class="labelLatel">
+                        <label>Reason for contact:&nbsp;</label>
+                        <input type="radio" name="contact" id="questions" value="questions" checked>&nbsp;Question(s)
+                        <input type="radio" name="contact" id="advice" value="advice">&nbsp;Advice
+                        <input type="radio" name="contact" id="misc" value="misc">&nbsp;Misc.
+                    </div><br>
+
+                    <div>
+                        <label for="comments" class="labelLatel">Other comments:&nbsp;</label>
+                        <textarea name="comments" id="comments" class="limitComments"></textarea>
+                        <!-- <span>*</span> -->
+                    </div>
+                    <div>
+                        <label>&nbsp;</label>
+                        <input type="button" id="submit" value="Submit" class="buttonPlace">
+                        <input type="button" id="reset_form" value="Reset" class="buttonPlace">
+                    </div>
+                    </fieldset></form>
+                </main>
+
+        <footer class="fl w-100 pa2 tc">
+            <p>
+                <a href="tel:+1-208-921-8861">Phone: (208) 921-8861</a>
+                <br><a href="mailto:aurirosenberger@my.cwi.edu">Email: aurirosenberger@my.cwi.edu</a>
+            </p>
+            <a href="https://www.linkedin.com/" target="_blank"><img class="shakeImage" src="media/iconmonstr-linkedin-64.png" alt="Social Icon for LinkedIn"></a>
+            <a href="https://codesandbox.io/" target="_blank"><img class="shakeImage" src="media/icon-icons-codesandbox-64.png" alt="Social Icon for CodeSandbox"></a>
+            <a href="https://github.com/" target="_blank"><img class="shakeImage" src="media/iconmonstr-github-64.png" alt="Social Icon for GitHub"></a>
+            <p>&copy; Copyright 2021. | All Rights Reserved. | Auri Rosenberger.</p>
+        </footer>
+        <br>
+        <script src="js/script.js"></script>
+    </body>
+</html>
